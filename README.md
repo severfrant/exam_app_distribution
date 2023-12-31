@@ -12,10 +12,13 @@ Pokud si nejste jistí, ze které složky .apk soubor stahovat, tak:
 3. Přemístěte do paměti telefonu
 4. Klikněte na telefonu na soubor
 5. "Install/Instalovat"
-6. Google Play Protect může hlásit "Unsafe app" -> klikněte "More details/Více možností" -> "Install anyway/Přesto instalovat"
+6. Google Play Protect může hlásit "Unsafe app" -> klikněte "More details/Více možností" -> "Install anyway/Přesto nainstalovat"
 7. Ikonka aplikace pod jménem exam_app by se měla objevit na domovské stránce
 
 ## Testované verze
 * Android 9 (MIUI 11)
 * Android 10 (MIUI 12)
 * Android 11 (MIUI 14)
+
+## Další upozornění
+Data jsou ukládána pouze lokálně (shared_preferences, JSON soubory v paměti přiřazené aplikaci OS), takže v tuto chvíli přihlášenému uživateli ve webové aplikaci se data po příhlášení na mobilním zařízení nepřenesou (to samé platí i naopak). Nicméně narozdíl od webové verze je na telefonech umožněno ukládání a načítání vygenerované sady příkladů.
